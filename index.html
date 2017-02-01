@@ -396,7 +396,17 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-
+    <script>
+        //jQuery transitions init(wow + animated)
+        wow new WOW({
+            boxclass: 'flex',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: true,
+            live: true
+        })
+        wow.init();
+    </script>
 
 
 
