@@ -1,0 +1,148 @@
+/*
+Theme Name: Theecho
+Author: syahirah
+Version: 1.0
+*/
+
+body {
+ font-family: "Poppins", Arial sans-serif;
+ font-size: 14px;
+ line-height: 1.42857143;
+ color: #828282;
+ background-color: #ffffff;
+ margin: 0px;
+ padding: 0px;
+ overflow-x: hidden;
+ -webkit-font-smoothing: antialiased;
+}
+
+ul {
+ margin: 0;
+ padding: 0px;
+ list-style: none;
+}
+
+h1 {
+ font-size: 60px;
+}
+
+h2 {
+ color: #111;
+ font-weight: 300;
+ margin-bottom: 30px;
+}
+
+h3,h4,h5 {
+ color: #333c4d;
+ font-weight: 400;
+ margin-bottom: 20px;
+}
+
+a h4:hover {
+ text-decoration: underline;
+}
+
+p {
+ font-family: 'Poppins', sans-serif;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 21px;
+ color: #828282;
+ padding-bottom: 15px;
+}
+
+@font-face {
+ font-family: 'FontAwesome';
+ src: local('FontAwesome');
+}
+
+ul li {
+ font-family: 'Poppins', sans-serif;
+ font-size: 15px;
+ line-height: 27px;
+ list-style-type: none;
+ color: #828282;
+}
+
+a {
+ color: #828282;
+}
+
+a:hover {
+ color: #009be3;
+}
+
+img {
+ max-width: 100%;
+ height: auto;
+}
+
+.branding img#logo{
+ max-width: initial;
+ margin-left: -15px;
+}
+
+.clear {
+ clear: both;
+}
+
+.container {
+ padding-right: 15px;
+ padding-left: 15px;
+ margin-right: auto;
+ margin-left: auto;
+}
+
+.caption {
+ text-align: center;
+ margin-bottom: 70px;
+}
+
+.btn-cta-primary {
+ color: #ffffff !important;
+ padding: 15px 30px 15px 30px !important;
+ border-radius: 0px;
+ font-size: 12px;
+ letter-spacing: 2px;
+ transition: all .2s ease-in-out;
+ position: relative;
+ margin-top: 25px;
+ text-transform: uppercase;
+ font-weight: 500;
+}
+
+.btn-cta-blue {
+ background-color: #0785f2;
+}
+
+.btn-cta-blue:hover {
+ background-color: #fff;
+ color: #0785f2 !important;
+}
+
+a.more {
+ transition: all .2s ease-in-out;
+ font-size: 14px !important;
+ margin-top: 10px;
+ font-weight: 400;
+}
+
+a.more:hover {
+ color: #0785f2;
+ padding-left: 10px;
+}
+
+a.more i.fa {
+ font-size: 15px !important;
+ font-weight: bold;
+ border: none;
+ cursor: pointer;
+ margin-right: 5px;
+ transition: all .2s ease-in-out;
+}
+
+a.more i.fa:hover {
+ color: #009be3;
+}
+
+/*------------Nav-----------*/
