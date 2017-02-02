@@ -146,3 +146,102 @@ a.more i.fa:hover {
 }
 
 /*------------Nav-----------*/
+
+#top-nav {
+ transition: all 0.2s linear 0s;
+}
+
+.navbar-fixed-top {
+ background-color: transparent;
+ border: none;
+}
+
+.navbar-fixed-top li a {
+ color: #ffffff;
+ font-size: 14px;
+ font-weight:  400;
+ transition: color 0.3s, border 0.3s;
+}
+
+.navbar-default .navbar-nav .activenav a {
+ border-bottom: 1px solid #0785f2;
+}
+
+.navbar-default .navbar-nav .activenav a:hover {
+ border-bottom: 1px solid #0785f2;
+}
+
+.navbar-nav > li > a {
+ border-bottom: 1px solid transparent;
+ transition: color 0.3s, border 0.3s;
+}
+
+.navbar-fixed-top .navbar-nav > li > a:hover {
+ border-bottom:  1px solid #fff;
+}
+
+.fixed-header {
+ background: #fff !important;
+ box-shadow:  0 6px 4px -4px rgba(0,0,0,0.1);
+}
+
+.fixed-header .navbar-nav > li > a {
+ color: #828282;
+ opacity: 1;
+}
+
+.fixed-header .navbar-default .navbar-nav .activenav a {
+ opacity: 1;
+}
+
+.fixed-header .navbar-nav > li > a:hover {
+ border-bottom: 1px solid #111;
+}
+
+#top-nav.navbar-scroll-changed {
+ background: none;
+ margin: 0 auto;
+ border: 0;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+
+/*------------End Nav-----------*/
+
+/*------------Index-----------*/
+
+.hero-overlay {
+ background: rgba(0,0,0,0.4);
+ height: 600px;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+}
+
+.hero-image {
+ margin-bottom: 70px;
+}
+
+.hero-image #home {
+ background: url("../img/home-hero-1.jpg");
+ position: relative;
+ width: 100%;
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ overflow: hidden;
+}
+
+.main-message {
+ position: absolute;
+ text-align: center;
+ top: 50%;
+ transform: translateY(-50%);
+ -o-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+width: 100%;
+
+}
