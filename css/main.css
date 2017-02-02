@@ -243,5 +243,138 @@ a.more i.fa:hover {
 -moz-transform: translateY(-50%);
 -ms-transform: translateY(-50%);
 width: 100%;
-
 }
+
+.main-message h1 {
+ font-family: "Poppins", Arial sans-serif;
+ font-weight: 400;
+ font-size: 60px;
+ color: #ffffff;
+}
+
+.title {
+ text-align: center;
+ margin-bottom: 70px;
+}
+
+.title p {
+ font-size: 14px;
+ color: #9d9d9d;
+}
+
+.title h2 {
+ margin-bottom: 15px !important;
+}
+
+p.description {
+ font-size: 14px;
+ font-weight: normal;
+ text-align: center !important;
+ padding-bottom: 5px;
+ max-width: 450px;
+ margin: 0 auto;
+}
+
+p.description-image {
+ color: #ffffff;
+ font-size: 17px;
+ font-weight: 400;
+ letter-spacing: 0.4px;
+ padding: 15px 230px;
+ line-height: 25px;
+}
+
+.zig-zag {
+ margin-bottom: 100px;
+}
+
+.zig-zag h2 {
+ margin-top: 70px;
+}
+
+.zig-zag-right p {
+ text-align: right;
+}
+
+.zig-zag-right h2 {
+ text-align: right;
+}
+
+#features {
+ margin-bottom: 70px;
+ padding-top: 50px;
+ background-color: #f6f8fa;
+}
+
+#features i.fa {
+ font-size: 50px;
+ color: #0785f2;
+ position: relative;
+ text-align: center;
+ margin-bottom: 10px;
+}
+
+#features h3 {
+ color: #222222;
+}
+
+#features .caption p {
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+#testimonials .carousel-indicators li {
+ background-color: #000;
+ background-color: rgba(70,70,70,.25);
+}
+
+#testimonials .carousel-indicators .active {
+ background-color: transparent;
+ border: 2px solid #0785f2;
+}
+
+#testimonials .carousel-inner blockquote {
+ font-size: 30px;
+ line-height: 40px;
+ margin: 0px;
+ font-weight: 300;
+ color: #111;
+}
+
+.carousel-indicators {
+ top: 110%;
+}
+
+a.company img {
+ margin: 0 auto 10px;
+ margin-bottom: 30px;
+ width: auto;
+}
+
+span.author {
+ font-size: 13px;
+ color: #828282 !important;
+ font-weight: 500;
+}
+
+span.author img {
+ display: block;
+ height: 54px;
+ margin: 0 auto 10px;
+ margin-top: 30px;
+ width: auto;
+}
+
+#services a img {
+ transition: all .2s ease-in-out;
+}
+
+#services a img {
+ border: 2px solid #fff;
+}
+
+#services a img:hover {
+ border: 2px solid #0785f2;
+}
+
+/*------------End Index-----------*/
