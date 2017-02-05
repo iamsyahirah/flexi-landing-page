@@ -224,7 +224,7 @@ a.more i.fa:hover {
 }
 
 .hero-image #home {
- background: url("../img/home-hero-1.jpg");
+ background: url("../img/home-hero-2.jpg");
  position: relative;
  width: 100%;
  background-size: cover;
@@ -378,3 +378,237 @@ span.author img {
 }
 
 /*------------End Index-----------*/
+
+/*------------Price Table-----------*/
+
+#plan {
+ padding-bottom: 70px;
+}
+
+.price-table {
+ padding-top: 40px;
+ padding-bottom: 30px;
+ text-align: center;
+ background-color: #fff;
+ border: 1px solid #d6d6d6;
+ transition: all .2s ease-in-out;
+ cursor: pointer;
+ margin-left: 0px;
+}
+
+.price-table i.fa {
+ color: #d6d6d6;
+ font-size: 40px;
+}
+
+.price-table h6 {
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ color: #828282;
+ font-weight: 400;
+}
+
+span.price {
+ font-size: 70px;
+ font-weight: 300;
+ color: #333c4d;
+}
+
+span.dollar {
+ vertical-align: top;
+ font-size: 17px !important;
+ display: inline-block;
+ margin-top: 15px;
+ color: #222;
+}
+
+.price-table ul.features {
+ margin-top: 10px;
+}
+
+.price-table ul.features {
+ font-size: 14px;
+ line-height: 37px;
+}
+
+.price-table:hover {
+ background-color: #0785f2;
+ margin-top: -20px;
+ z-index: 10;
+ border: none;
+}
+
+.price-table:hover * {
+ color: #fff !important;
+}
+
+/*------------Media Queries-----------*/
+
+@media (max-width: 768px) {
+ .hero-overlay {
+  height: 450px;
+ }
+ .navbar-fixed-top {
+  background: #fff !important;
+  box-shadow: 0 6px 4px -4px rgba(0,0,0,0.1);
+ }
+
+ .navbar-default .navbar-nav > li > a {
+  color: #828282;
+  opacity: 1;
+  line-height: 20px !important;
+ }
+
+ .navbar-fixed-top .navbar-toggle .icon-bar {
+  background-color: #222 !important;
+ }
+}
+
+@media (max-width: 990px) {
+ p.description-image {
+  padding: 0px !important;
+ }
+}
+
+@media (max-width: 990px) {
+ .zig-zag {
+  text-align: center;
+  margin-bottom: 40px;
+ }
+
+ .zig-zag-right * {
+  text-align: center !important;
+  margin-bottom: 20px;
+ }
+
+ .carousel-indicators {
+  position: relative;
+  clear: both;
+  margin-bottom: 30px;
+  left: 50%;
+ }
+}
+
+@media (max-width: 450px) {
+ .social {
+  float: left !important;
+  margin-bottom: 20px;
+  margin-top: -15px;
+ }
+}
+
+@media (max-width: 650px) {
+ .footer-section {
+  text-align: center !important;
+ }
+
+ .social {
+  float: none !important;
+ }
+
+ .marketing-action h1 {
+  font-size: 35px;
+  font-weight: 400;
+ }
+}
+
+@media(max-width: 768px) {
+ .price-table {
+  margin: 30px !important;
+ }
+}
+
+/*------------Hero Image-----------*/
+
+@media (max-width: 600px) {
+ .main-message h1 {
+  font-size: 40px !important;
+ }
+}
+
+/*------------Marketing-----------*/
+
+.marketing-action {
+ position: relative;
+ background: url('../img/pencil.jpg');
+ width: 100%;
+ height: 100%;
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ overflow: hidden;
+}
+
+.marketing-action .overlay {
+ background: rgba(0,0,0,0.5);
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ height: 360px;
+}
+
+.marketing-action .text {
+ position: absolute;
+ text-align: center;
+ top: 48%;
+ transform: translateY(-50%);
+ -o-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+width: 100%;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.marketing-action h1 {
+ margin-bottom: 15px !important;
+ margin-top: 0px;
+}
+
+.marketing-action .text h1 {
+ color: #ffffff;
+}
+
+.btn-cta-buy {
+ background-color: #0185c3;
+ margin-top: 0px;
+}
+
+.btn-cta-buy:hover {
+ background-color: #fff;
+ color: #009be3 !important;
+ margin-top: 0px;
+}
+
+/*------------Footer-----------*/
+
+#footer {
+ margin-bottom: 0px;
+ background-color: #222222;
+ padding-top: 50px;
+}
+
+.footer-section {
+ margin-bottom: 30px;
+}
+
+img.logo-footer {
+ margin-top: -15px;
+}
+
+p.copyright {
+ float: left;
+ margin-left: -30px;
+}
+
+.social {
+ float: right;
+ margin-right: -15px;
+}
+
+.social a {
+ padding-right: 15px;
+ font-size: 19px;
+}
